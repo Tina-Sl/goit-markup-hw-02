@@ -1,6 +1,6 @@
 body{
   font-family: "Roboto", sans-serif;
-  color:#2e2f42;
+  color: #434455;
   background-color:#ffffff;
 }
 ul{
@@ -32,7 +32,7 @@ a{
  .menu-item{
   color: #2e2f42;
  }
- .menu-item:hover, .menu-item:active{
+ .menu-item:hover, .menu-item:focus, .menu-item:active{
   color: #404bbf;
  }
 .contacs{
@@ -41,7 +41,7 @@ a{
   font-style: normal;
 }
 .contacs-link{
-  color: #2e2f42;
+  color: #434455;
 }
 .contacs-link:hover, .contacs-link:focus{
   color: #404bbf;
@@ -51,12 +51,13 @@ a{
 .hero{
   background: #2e2f42;
  }
-h1{
+.hero-title{
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .hero-button{
   background: #4d5ae5;
@@ -66,7 +67,7 @@ h1{
   color: #fff;
   cursor: pointer;
  }
- .hero-btn:hover{
+ .hero-bbutton:hover, .hero-bbutton:focus{
   background: #404bbf;
  }
 
@@ -85,11 +86,19 @@ h1{
 }
 
 /* styles section 2 */
+.team{
+  background-color: #F4F4FD;
+}
 .team-title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+ }
+ .team-card{
+  background-color: #FFFFFF;
  }
 .team-caption{
   font-weight: 500;
@@ -110,6 +119,8 @@ h1{
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .projects-card{
   background: #fff;
