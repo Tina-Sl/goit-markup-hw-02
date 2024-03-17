@@ -67,7 +67,7 @@ a{
   color: #fff;
   cursor: pointer;
  }
- .hero-bbutton:hover, .hero-bbutton:focus{
+ .hero-button:hover, .hero-button:focus{
   background-color: #404bbf;
  }
 
